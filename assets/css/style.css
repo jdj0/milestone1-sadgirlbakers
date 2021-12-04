@@ -1,26 +1,31 @@
-.main-headers{
-    font-family: "Quicksand", sans-serif;
-}
+/*navbar styling*/
 
-.container-fluid {
-    background-color: #fffcf4;
-    padding: 0;
-    margin: 0 auto;
-}
 
-#navbarSupportedContent a {
-    text-align: center;
-}
-
-.navbar {
-    padding: 0;
-}
-
-.navbar-brand img{
+.navbar-brand img {
     height: 100px;
     width: 100px;
     margin-left: 10px;
 }
+
+.bg-light {
+    background-color: #fffcf4!important;
+}
+
+ul {
+    margin: auto;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/*homepage styling*/
 
 .hero-bg {
     background-image: url("../images/ph-hero-2.jpeg");
@@ -37,8 +42,4 @@
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: .3rem;
     text-align: center;
-  }
-
-  #hero {
-      
-  }
+}
