@@ -4,7 +4,7 @@ body {
 
 .main-heading-1 {
     color: #ff5757;
-    font-family: "Bodoni Moda", serif;
+    font-family: "Bodoni Moda", sans-serif;
     font-weight: lighter;
     font-size: 20vw;
     margin-bottom: 0;
@@ -80,8 +80,45 @@ ul {
 }
 */
 
+/*Our Story styling*/
+
 #our-story {
     height: 100vh;
     width: 100vw;
-
 }
+
+#our-story-headers{
+    text-align: center;
+    padding: 50px;
+}
+
+#our-story-headers h1 {
+    color: #ff5757;
+    font-family: "Bodoni Moda", sans-serif;
+    font-weight: lighter;
+    font-size: 10vw;
+}
+
+#our-story-headers h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+}
+
+.our-story-img {
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: #ff5757 solid 3px;
+}
+
+/*
+#left-story {
+    padding: 50px 250px;
+}
+
+#right-story {
+    padding: 50px 250px;
+}
+*/
