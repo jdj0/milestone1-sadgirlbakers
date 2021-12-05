@@ -1,5 +1,28 @@
-/*navbar styling*/
+body {
+    background: #fffcf4;
+}
 
+.main-heading-1 {
+    color: #ff5757;
+    font-family: "Bodoni Moda", serif;
+    font-weight: lighter;
+    font-size: 20vw;
+    margin-bottom: 0;
+}
+
+.main-subheading-1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 200;
+    text-align: center;
+}
+/*
+#hero-text{
+    height: 85vh;
+    width: 100vw;
+}
+*/
+
+/*navbar styling*/
 
 .navbar-brand img {
     height: 100px;
@@ -8,7 +31,7 @@
 }
 
 .bg-light {
-    background-color: #fffcf4!important;
+    background-color: #fffcf4 !important;
 }
 
 ul {
@@ -27,6 +50,17 @@ ul {
 
 /*homepage styling*/
 
+#bg-hero {
+    height: 85vh;
+    width: 100vw;
+    background: url("../images/ph-hero-2.jpeg") no-repeat center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
 .hero-bg {
     background-image: url("../images/ph-hero-2.jpeg");
     background-size: cover;
@@ -43,3 +77,5 @@ ul {
     border-radius: .3rem;
     text-align: center;
 }
+*/
+
