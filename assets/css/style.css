@@ -52,7 +52,7 @@ ul {
 /*homepage styling*/
 
 #bg-hero {
-    height: 85vh;
+    height: 750px;
     width: 100vw;
     background: url("../images/ph-hero-2.jpeg") no-repeat center center;
 
@@ -83,13 +83,13 @@ ul {
 /*Our Story styling*/
 
 #our-story {
-    height: 100vh;
+    height: fit-content;
     width: 100vw;
 }
 
 #our-story-headers{
     text-align: center;
-    padding: 50px;
+    padding-bottom: 10px;
 }
 
 #our-story-headers h1 {
@@ -105,7 +105,8 @@ ul {
 }
 
 .our-story-img {
-    align-items: center;
+    display: block;
+    margin: auto;
     height: 150px;
     width: 150px;
     margin-bottom: 15px;
@@ -113,12 +114,22 @@ ul {
     border: #ff5757 solid 3px;
 }
 
-/*
 #left-story {
-    padding: 50px 250px;
+    margin: 5%;
 }
 
 #right-story {
-    padding: 50px 250px;
+    margin: 5%;
 }
-*/
+
+.our-names {
+    font-family: "Bodoni Moda", sans-serif;
+    font-weight: 500;
+}
+
+/*Cake styling*/
+
+#cake {
+    height: 800px;
+    width: 100vw;
+}
