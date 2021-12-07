@@ -6,8 +6,9 @@ body {
     color: #ff5757;
     font-family: "Bodoni Moda", sans-serif;
     font-weight: lighter;
-    font-size: 20vw;
+    font-size: 15vw;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .main-subheading-1 {
@@ -107,8 +108,8 @@ ul {
 .our-story-img {
     display: block;
     margin: auto;
-    height: 150px;
-    width: 150px;
+    height: 215px;
+    width: 215px;
     margin-bottom: 15px;
     border-radius: 50%;
     border: #ff5757 solid 3px;
@@ -132,4 +133,14 @@ ul {
 #cake {
     height: 800px;
     width: 100vw;
+}
+
+#gallery {
+    height: 576px;
+    width: 730px;
+    margin: auto;
+}
+
+.carousel-item img {
+  
 }
