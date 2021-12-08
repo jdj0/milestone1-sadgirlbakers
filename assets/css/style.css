@@ -88,7 +88,7 @@ ul {
     width: 100vw;
 }
 
-#our-story-headers{
+#our-story-headers {
     text-align: center;
     padding-bottom: 10px;
 }
@@ -141,6 +141,14 @@ ul {
     margin: auto;
 }
 
-.carousel-item img {
-  
+.carousel-item img {}
+
+/*Media Queries*/
+
+@media (max-width: 768px) {
+    #gallery {
+        height: 75%;
+        width: 100%;
+    }
+
 }
