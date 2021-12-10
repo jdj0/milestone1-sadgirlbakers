@@ -143,6 +143,41 @@ ul {
 
 .carousel-item img {}
 
+/*Contact us styling*/
+
+#text-box {
+    width: 400px;
+    height: 350px;
+}
+
+#form-break {
+    height: 10px;
+}
+
+#name, #email {
+    width: 195px;
+}
+
+#email {
+    margin-left: 10px;
+}
+
+/*iFrame*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 400px;
+    width: 400px;
+}
+
 /*Media Queries*/
 
 @media (max-width: 768px) {
