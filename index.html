@@ -14,7 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />-->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -55,8 +55,8 @@
     <section id="home">
         <div id="bg-hero">
             <div id="hero-text">
-                <h1 class="main-heading-1">Sad Girl Bakers</h1>
-                <h3 class="main-subheading-1">Because it's the only thing you can rely on</h3>
+                <h1 class="hero-heading">Sad Girl Bakers</h1>
+                <h3 class="main-subheading-1">Cake — because it's the only thing you can rely on</h3>
             </div>
         </div>
     </section>
@@ -139,11 +139,14 @@
         <div class="container-fluid">
             <div class="row justify-content-evenly">
                 <div class="col-12 col-md-4" id="left-story">
-                    <form>
-                        <input type="text" placeholder="Name" id="name"><input type="email" placeholder="Email Address"
-                            id="email">
+                    <form method="post" action="mailto:joshua.davidjones92@gmail.com">
+                        <input type="text" placeholder="Name" id="name">
+                        <div id="form-break"></div>
+                        <input type="email" placeholder="Email Address" id="email">
                         <div id="form-break"></div>
                         <input type="text" placeholder="How can we help..." id="text-box">
+                        <div id="form-break"></div>
+                        <input type="submit" value="Submit Email">
                     </form>
                 </div>
                 <div class="col-12 col-md-4" id="right-story">
@@ -161,7 +164,7 @@
                 </div>
             </div>
     </section>
-
+    <!--Contact-->
     <footer>
         <ul class="footer-links">
             <li><a href="https://www.tiktok.com/" target="_push"><i class="fab fa-tiktok"></i></a></li>

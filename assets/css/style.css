@@ -2,6 +2,15 @@ body {
     background: #fffcf4;
 }
 
+.hero-heading {
+    color: #ff5757;
+    font-family: "Bodoni Moda", sans-serif;
+    font-weight: lighter;
+    font-size: 11vw;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .main-heading-1 {
     color: #ff5757;
     font-family: "Bodoni Moda", sans-serif;
@@ -16,6 +25,7 @@ body {
     font-weight: 200;
     text-align: center;
 }
+
 /*navbar styling*/
 
 .navbar-brand img {
@@ -45,9 +55,10 @@ ul {
 /*homepage styling*/
 
 #bg-hero {
-    height: 750px;
+    height: 85vh;
     width: 100vw;
-    background: url("../images/ph-hero-2.jpeg") no-repeat center center;
+    background: url("../images/hero-image-2.jpg") no-repeat center center;
+    background-size: cover;
 
     display: flex;
     align-items: center;
@@ -143,20 +154,17 @@ ul {
 
 #text-box {
     width: 400px;
-    height: 340px;
+    height: 220px;
 }
 
 #form-break {
     height: 10px;
 }
 
-#name, #email {
-    height: 50px;
-    width: 195px;
-}
-
+#name,
 #email {
-    margin-left: 10px;
+    height: 50px;
+    width: 400px;
 }
 
 /*iFrame*/
@@ -185,23 +193,32 @@ footer {
     margin: auto;
 }
 
-.footer-links li{
+.footer-links li {
     font-size: 150%;
     padding: 2.5%;
     list-style: none;
     display: inline;
+}
+
+.footer-links a {
     color: black;
 }
 
 /*Media Queries*/
 
 @media (max-width: 768px) {
-    #gallery {
-        height: 75%;
-        width: 100%;
-    }
+    #bg-hero {
+        height: 85vh;
+        width: 100vw;
+        background: url("../images/sm-hero-image.jpg") no-repeat center center;
+        background-size: cover;
 
-    #contact-us {
-        width: fit-content;
+        #gallery {
+            height: 75%;
+            width: 100%;
+        }
+
+        #contact-us {
+            width: fit-content;
+        }
     }
-}
