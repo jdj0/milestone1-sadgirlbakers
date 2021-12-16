@@ -57,32 +57,13 @@ ul {
 #bg-hero {
     height: 85vh;
     width: 100vw;
-    background: url("../images/hero-image-2.jpg") no-repeat center center;
+    background: url("../images/hero-image-1.2.webp") no-repeat center center;
     background-size: cover;
 
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/*
-.hero-bg {
-    background-image: url("../images/ph-hero-2.jpeg");
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-}
-
-.jumbotron {
-    padding: 2rem 1rem;
-    margin-top: 200px;
-    margin-bottom: 2rem;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: .3rem;
-    text-align: center;
-}
-*/
 
 /*Our Story styling*/
 
@@ -91,19 +72,20 @@ ul {
     width: 100vw;
 }
 
-#our-story-headers {
+.page-header {
     text-align: center;
     padding-bottom: 10px;
 }
 
-#our-story-headers h1 {
+.page-header h1 {
     color: #ff5757;
     font-family: "Bodoni Moda", sans-serif;
     font-weight: lighter;
     font-size: 10vw;
+    margin-top: 10px;
 }
 
-#our-story-headers h3 {
+.page-header h3 {
     font-family: "Quicksand", sans-serif;
     font-weight: 200;
 }
@@ -149,7 +131,8 @@ ul {
 /*Contact us styling*/
 
 #contact-us {
-    height: 750px;
+    height: 90%;
+    /*height: 750px;*/
 }
 
 #text-box {
@@ -157,7 +140,7 @@ ul {
     height: 220px;
 }
 
-#form-break {
+.form-break {
     height: 10px;
 }
 
@@ -176,8 +159,16 @@ ul {
     border-style: none;
 }
 
+.button:hover {
+    background-color: #e45050;
+}
+
 #left-contact {
-    margin: auto;
+    margin: 25px 10px;
+}
+
+#right-contact {
+    margin: 25px 10px;
 }
 
 /*iFrame*/
@@ -194,6 +185,7 @@ ul {
     background: none !important;
     height: 400px;
     width: 400px;
+    border: none;
 }
 
 .map-container {
@@ -240,7 +232,7 @@ footer {
     #bg-hero {
         height: 85vh;
         width: 100vw;
-        background: url("../images/sm-hero-image.jpg") no-repeat center center;
+        background: url("../images/sm-hero-image.webp") no-repeat center center;
         background-size: cover;
     }
 
@@ -286,5 +278,15 @@ footer {
     #left-contact {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    #cake {
+        height: 85vh;
+    }
+
+    p {
+        font-size: 20px;
     }
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet the Sad Girl Bakers, your go to for baked goods that mend a broken heart.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,7 +25,7 @@
 <body>
     <!--Navigation Bar-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light text-center">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="assets/images/sgb-logo.jpg" alt="Sad Girl Bakes Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -63,14 +64,14 @@
 
     <!--Our Story-->
     <section id="our-story">
-        <div id="our-story-headers">
+        <div class="page-header">
             <h1>Our Story</h1>
             <h3>From Heartbreak to Bake</h3>
         </div>
         <div class="container-fluid">
             <div class="row justify-content-evenly">
                 <div class="col-12 col-md-4" id="right-story">
-                    <img src="assets/images/sad-g.jpg" class="our-story-img">
+                    <img src="assets/images/sad-g.webp" alt="Sad Gracie" class="our-story-img">
                     <h3 class="our-names">Gracie</h3>
                     <p>My sister and I are the sad girl bakers. The sad girl club is a club you don’t really want to be
                         in, but you’ll probably hold the membership card at least once in your life. As I write this, I
@@ -80,7 +81,7 @@
                         simple. </p>
                 </div>
                 <div class="col-12 col-md-4" id="left-story">
-                    <img src="assets/images/sad-a.jpg" class="our-story-img">
+                    <img src="assets/images/sad-a.webp" alt="Sad Alice" class="our-story-img">
                     <h3 class="our-names">Alice</h3>
                     <p>My story is a little different to my sisters, as I found comfort in the baked good itself. Some
                         may say, “Great job starting a habit of emotionally eating” but for me, when Gracie would whip
@@ -97,29 +98,29 @@
 
     <!--Cake-->
     <section id="cake">
-        <div id="our-story-headers">
+        <div class="page-header">
             <h1>The Bakes</h1>
         </div>
         <div id="gallery">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/images/1.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/1.1.webp" class="d-block w-100" alt="We were on a break cake">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/2.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/2.1.webp" class="d-block w-100" alt="Good for you Tiramisu">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/3.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/3.1.webp" class="d-block w-100" alt="Cry your heart out cookies">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/4.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/4.1.webp" class="d-block w-100" alt="Tell 'em boy bye brownies">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/5.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/5.1.webp" class="d-block w-100" alt="Grow a pair oreo truffles">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/images/6.1.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/images/6.1.webp" class="d-block w-100" alt="Last you see of these cupcakes">
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                         data-bs-slide="prev">
@@ -133,30 +134,30 @@
                     </button>
                 </div>
             </div>
+        </div>
     </section>
     <!--Contact-->
     <section id="contact-us">
-        <div id="our-story-headers">
+        <div class="page-header">
             <h1>Gals, get in touch</h1>
         </div>
         <div class="container-fluid">
             <div class="row justify-content-evenly">
                 <div class="col-12 col-md-4" id="left-contact">
                     <form method="post" action="#">
-                        <input type="text" placeholder="Name" id="name">
-                        <div id="form-break"></div>
-                        <input type="email" placeholder="Email Address" id="email">
-                        <div id="form-break"></div>
-                        <input type="text" placeholder="How can we help..." id="text-box">
-                        <div id="form-break"></div>
+                        <input type="text" placeholder="Name" id="name" required>
+                        <div class="form-break"></div>
+                        <input type="email" placeholder="Email Address" id="email" required>
+                        <div class="form-break"></div>
+                        <textarea placeholder="How can we help..." id="text-box" required></textarea>
+                        <div class="form-break"></div>
                         <input type="submit" value="Send" class="button">
                     </form>
                 </div>
-                <div class="col-12 col-md-4" id="right-story">
+                <div class="col-12 col-md-4" id="right-contact">
                     <div class="mapouter">
                         <div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas"
-                                src="https://maps.google.com/maps?q=1a%20the%20garth%20abertridwr&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                src="https://maps.google.com/maps?q=1a%20the%20garth%20abertridwr&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe><a
                                 href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi
                                 discount</a><br>
                             <a href="https://www.embedgooglemap.net"></a>
@@ -164,15 +165,20 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <!--Contact-->
+    <!--Footer-->
     <footer>
         <ul class="footer-links">
-            <li><a href="https://www.tiktok.com/" target="_push"><i class="fab fa-tiktok"></i></a></li>
-            <li><a href="https://www.snapchat.com/" target="_push"><i class="fab fa-snapchat-ghost"></i></a></li>
-            <li><a href="https://www.facebook.com//" target="_push"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://www.instagram.com//" target="_push"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_push"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a></li>
+            <li><a href="https://www.snapchat.com/" target="_blank" rel="noopener"><i
+                        class="fab fa-snapchat-ghost"></i></a></li>
+            <li><a href="https://www.facebook.com//" target="_blank" rel="noopener"><i
+                        class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com//" target="_blank" rel="noopener"><i
+                        class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><i class="fab fa-youtube"></i></a>
+            </li>
         </ul>
     </footer>
 
