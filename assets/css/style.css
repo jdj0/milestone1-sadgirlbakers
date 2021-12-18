@@ -132,7 +132,6 @@ ul {
 
 #contact-us {
     height: 90%;
-    /*height: 750px;*/
 }
 
 #text-box {
@@ -230,7 +229,7 @@ footer {
 
 @media (max-width: 1024px) {
     #bg-hero {
-        height: 85vh;
+        height: 100vh;
         width: 100vw;
         background: url("../images/sm-hero-image.webp") no-repeat center center;
         background-size: cover;
@@ -278,15 +277,5 @@ footer {
     #left-contact {
         display: flex;
         justify-content: center;
-    }
-}
-
-@media (min-width: 1440px) {
-    #cake {
-        height: 85vh;
-    }
-
-    p {
-        font-size: 20px;
     }
 }

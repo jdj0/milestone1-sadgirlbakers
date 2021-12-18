@@ -27,7 +27,7 @@ Sad Girl Bakers is a business in the early stages of it's development. The purpo
 - Imagery
     - Images are used to support the overall aesthetic of the site, chosen to create a smooth and simple style that puts the information front and centre.
 
-- Wireframe
+- Wireframe<br>
 ![Sad-girl-bakers-wireframes](assets/images/read-me/wire-frame.png)
 
 # Features
@@ -85,8 +85,7 @@ Both the HTML5 and CSS3 code was put through WSC validators and passed without e
         - iPhone 13 Pro: Performs and displays correctly.
         - iPad Pro: Performs and displays correctly.
         - OnePlus Nord: Performs and displays correctly.
-        - LG 27UN83A 4K: Performed well, but paragraph text looked small, and the bakes carousel appeared small on the page.
-            - Solution: Added an additional media query for screen widths above 1440px, increasing the size of paragraph text and decreasing the viewport height the bakes section took up.
+        - LG 27UN83A 4K: Performs and displays well. 
     - Real World Testing
         - Friends and family members were asked to engage with the site in order to find bugs. No bugs were reported in this testing. Positive feedback was received on the look of the site.
 
