@@ -1,8 +1,8 @@
-Live site here.
-
 ![Mock ups](assets/images/read-me/mock-ups.png)
 
 Sad Girl Bakers is a business in the early stages of it's development. The purpose of the website is to support brand identity by providing legitimacy (digital storefront) and to direct the social media followers of the brand to a place where they can learn more about Sad Girl Bakers.
+
+View live site [here](https://jdj0.github.io/milestone1-sadgirlbakers/).
 
 # UX
 
@@ -101,8 +101,9 @@ To deploy the site through GitHub pages:
 1.	Log in to GitHub and go to the GitHub Repository.
 2.	Click on settings (the gear icon).
 3.	Scroll down to the GitHub Pages header and click on the ‘Check it out here!’ link.
-4.	Under the Source header, from the dropdown menu choose ‘main’. 
-5.	After the page refreshes, scroll down to the published website link found under the GitHub pages header.
+4.	Under the Source header, from the dropdown menu choose ‘main’ then select folder '/ (root)'.
+5.  Click Save.
+6.	After the page refreshes, scroll down to the published website link found under the GitHub pages header.
 
 ## Forking the GitHub Repository
 To create a copy of the project to experiment with changes in a safe way that will not affect the original site:
