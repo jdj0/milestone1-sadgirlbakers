@@ -1,108 +1,143 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Live site here.
 
-Welcome jdj0,
+![Mock ups](assets/images/read-me/mock-ups.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Sad Girl Bakers is a business in the early stages of it's development. The purpose of the website is to support brand identity by providing legitimacy (digital storefront) and to direct the social media followers of the brand to a place where they can learn more about Sad Girl Bakers.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+# UX
 
-## Gitpod Reminders
+## User Stories
+- As a first-time visitor, I want the user to easily navigate their way through the site, thus seamlessly learning about the brand and the products that they offer. I want users who are loyal to the brand to be able to make contact and engage.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- As a returning visitor, I want to locate information displayed on the site as efficiently as possible. I want to see if there are new bakes and other updates to the site.
 
-`python3 -m http.server`
+- As a frequent user, I want to go straight to contact information.
 
-A blue button should appear to click: _Make Public_,
+## Design
+- Design Choices
+    - The website follows the principles of minimalist design. This style is neatly summed up by Marc Schenker: “minimalism is about designers expressing only the most essential and necessary elements of a product or subject by getting rid of any excessive and, therefore, unnecessary components and features.” For the full article and breakdown of minimalism click [here](https://creativemarket.com/blog/minimalist-design-trend). This design decision was made to further the brand goals of the business and their chosen aesthetic. 
+    - A single scroll website was thought appropriate for the goal of providing a clear structure to the information in an order that made the most sense. For example, this design choice allows the story of the brand to be understood before being introduced to the products that they offer.
 
-Another blue button should appear to click: _Open Browser_.
+- Colour Scheme
+    - The minimalist two tone design of the website involves colours:  #ff5757 (Sad Girl Bakes Red) and #fffcf4 (Cream).
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Typography
+    - The font used for all main headers and the text overlay of the hero image is ‘Bodini Moda’ (in line with the SGB logo) with ‘Quicksand’ as all subtitles. All paragraph text is in ‘Helvetica Neue’. Throughout the site, the back-up font is ‘sans-serif’.
 
-A blue button should appear to click: _Make Public_,
+- Imagery
+    - Images are used to support the overall aesthetic of the site, chosen to create a smooth and simple style that puts the information front and centre.
 
-Another blue button should appear to click: _Open Browser_.
+- Wireframe
+![Sad-girl-bakers-wireframes](assets/images/read-me/wire-frame.png)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Features
 
-To log into the Heroku toolbelt CLI:
+- Fully responsive — optomised for phone, tablet, laptop and desktop. 
+- Interactive carousel and contact page. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Technologies Used
+## Languages used
+ - HTML5
+ - CSS
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+ ## Frameworks, Libraries & Programmes used:
+ 1.	Bootstrap 5
+    - Bootstrap was used to structure the site, utilising the built-in responsiveness for all device types.
+2.	Google Fonts
+    - The fonts, ‘Bodini Moda’ and ‘Quicksand’ are sourced from Google Fonts.
+3.	Font Awesome
+    - Icons were used to enhance the UX of the navbar.
+4.	Git
+    - Git was utilised for version control through ‘commit’ and ‘push’ commands through the terminal.
+5.	Github
+    - Github was used to store code ‘pushed’ from Gitpod.
+6.	Photoshop
+    - Photoshop was used for image manipulation, editing and resizing. It was also used in creating the slides for the bootstrap carousel found on the ‘Bakes’ page. 
+7.	Balsamiq
+    - Balsamiq was used to outline the entire design of the website through wireframes.
 
-------
+# Testing
+Both the HTML5 and CSS3 code was put through WSC validators and passed without errors. 
+- HTML5<br>
+![html validation](assets/images/read-me/html-check.png)
+- CSS3<br>
+![css validation](assets/images/read-me/css-check.png)
+- Favourable scores were also obtained through Google lighthouse.<br>
+![lighthouse](assets/images/read-me/lighthouse.png)
 
-## Release History
+## Testing User Stories
+- As a *first-time visitor*, I want to easily navigate through the site, thus seamlessly learning about the brand and the products that they offer.
+    - Upon visiting the site, the user is welcomed with a large hero image with a title to let them know they’re in the right place. Above the hero image there is a clear, uncluttered navigation bar to aid in their exploration. However, the single scroll design of the site encourages a linear path through the site that walks the user through the information in an order that makes the most sense.
+- As a *returning visitor*, I want to locate information displayed on the site as efficiently as possible. I want to see if there are new bakes and other updates to the site.
+    - With some familiarity to the site, a user can use the navigation bar to go directly to the information they require, when they require it. The user can quickly see if there are content updates by browsing the site. The headings are big and bold allowing the user to know where they are at all times.
+- As a *frequent user* I want to go straight to contact information or make contact through social media.
+    - The contact form and iframe that locates the business location is linked in the navigation bar and can be found easily.  
+    - The footer of the page contains links to all of their social media, allowing the user to engage on multiple platforms and build brand loyalty and synergy accross all of the businesses applications.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+    ## Further Testing
+    - Browsers
+        - Chrome: Performs and displays correctly. 
+        - Safari: Performs and displays correctly.
+        - Mozilla: Performs and displays correctly.
+        - Opera: Performs and displays correctly.
+    - Devices
+        - MacBook Air 13inch: Performs and displays correctly.
+        - iPhone 13 Pro: Performs and displays correctly.
+        - iPad Pro: Performs and displays correctly.
+        - OnePlus Nord: Performs and displays correctly.
+        - LG 27UN83A 4K: Performed well, but paragraph text looked small, and the bakes carousel appeared small on the page.
+            - Solution: Added an additional media query for screen widths above 1440px, increasing the size of paragraph text and decreasing the viewport height the bakes section took up.
+    - Real World Testing
+        - Friends and family members were asked to engage with the site in order to find bugs. No bugs were reported in this testing. Positive feedback was received on the look of the site.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+# Next Steps
+- Increase the performance of the site to achieve a higher lighthouse score.
+- Add a blog to the site to increase SEO and climb the google rankings.
+- Add a shop so that customers can make purchases after browsing.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+# Deployment
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## GitHub Pages
+To deploy the site through GitHub pages:
+1.	Log in to GitHub and go to the GitHub Repository.
+2.	Click on settings (the gear icon).
+3.	Scroll down to the GitHub Pages header and click on the ‘Check it out here!’ link.
+4.	Under the Source header, from the dropdown menu choose ‘main’. 
+5.	After the page refreshes, scroll down to the published website link found under the GitHub pages header.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Forking the GitHub Repository
+To create a copy of the project to experiment with changes in a safe way that will not affect the original site:
+1.	Log into GitHub go to the GitHub Repository.
+2.	Near the top of the Repository, click the “Fork” button in order to create a copy of the repository. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Making a Local Clone
+1.	Log into GitHub go to the GitHub Repository.
+2.	Click ‘Code’.
+3.	To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon to copy the link. 
+4.	Open Git Bash. 
+5.	Change the current working directory to the location you want the cloned directory.
+6.	Type ‘git clone’, add a space, then paste the URL that was copied earlier (step 3) and press enter. This should have created a clone.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+For a detailed step-by-step guide with screenshots, click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop).
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Credits
+## Code
+- Bootstrap 5: Bootstrap was used in the development of the site, utilising the responsive grid system and navigation bar.
+## Content
+- All content written by Joshua Jones (Developer).
+- The  example Code Institute Read Me file, on which this Read Me file is based on.
+## Media
+- All images a part from those used in the 'Our Story' section were sourced from [Unsplash](https://unsplash.com/) — a site that provides images for free for commercial and non-commercial use.
+- The images used in the 'Our Story' section were created by the Developer.
+## Acknowledgments
+- My Mentor, Precious Ijege, for his thoughtful and helpful feedback. 
+- Tutor Support, for their invaluable support throughout the entire project. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
